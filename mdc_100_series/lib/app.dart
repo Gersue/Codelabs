@@ -13,7 +13,6 @@
 // limitations under the License.
 
 import 'package:flutter/material.dart';
-
 import 'home.dart';
 import 'login.dart';
 
@@ -24,6 +23,7 @@ class ShrineApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, // <-- Aquí se desactiva el debug banner
       title: 'Codelabs6',
       initialRoute: '/login',
       routes: {
