@@ -24,7 +24,7 @@ class ShrineApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Shrine',
+      title: 'Codelabs6',
       initialRoute: '/login',
       routes: {
         '/login': (BuildContext context) => const LoginPage(),
